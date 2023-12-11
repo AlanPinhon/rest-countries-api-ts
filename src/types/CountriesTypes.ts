@@ -95,7 +95,7 @@ export type Currencies = {
   VES?: Currency;
   PLN?: Currency;
   SAR?: Currency;
-  BAM?: Currency;
+  BAM?: Pick<Currency,"name">;
   CZK?: Currency;
   GTQ?: Currency;
   KRW?: Currency;
@@ -143,7 +143,7 @@ export type Currencies = {
   VUV?: Currency;
   UYU?: Currency;
   OMR?: Currency;
-  SDG?: Currency;
+  SDG?: Pick<Currency,"name">;
   INR?: Currency;
   LAK?: Currency;
   AWG?: Currency;
