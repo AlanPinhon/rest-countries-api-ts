@@ -232,7 +232,7 @@ export type Currencies = {
 
 export type Currency = {
   name:   string;
-  symbol?: string;
+  symbol: string;
 }
 
 export type Demonyms = {
