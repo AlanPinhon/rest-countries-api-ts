@@ -1,4 +1,4 @@
-import Moon from '../assets/images/moon.svg';
+import Moon from '../../assets/images/moon.svg';
 import './HeaderStyles.css';
 
 export const Header = () => (
