@@ -1,7 +1,7 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
-import { CountryInfo } from '../pages/CountryInfo';
-import { HomePage } from '../pages/HomePage';
-import { Header } from '../components/Header';
+import { CountryInfo } from '../pages/CountryInfo/CountryInfo';
+import { HomePage } from '../pages/HomePage/HomePage';
+import { Header } from '../components/Header/Header';
 
 export const CountriesAppRouter = () => {
   return (
