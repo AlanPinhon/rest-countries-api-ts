@@ -1,6 +1,7 @@
 import { useFetchCountries } from '../../helpers/useFetchCountries'
 import { CountryCard } from '../../components/CountryCard/CountryCard';
 import './HomePageStyles.css';
+import { SearchCountry } from '../../components/SearchCountry/SearchCountry';
 
 export const HomePage = () => {
 
@@ -8,6 +9,8 @@ export const HomePage = () => {
   
   return (
     <>
+      <SearchCountry/>
+
       <section className="country-cards-container">
         
         { countries.map( country => (
