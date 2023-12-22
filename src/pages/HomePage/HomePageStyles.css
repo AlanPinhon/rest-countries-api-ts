@@ -5,3 +5,9 @@
   gap: 5rem;
   padding: 2.5rem 0;
 }
+
+.search-container{
+  display: flex;
+  padding: 3.75rem;
+  justify-content: space-between;
+}
