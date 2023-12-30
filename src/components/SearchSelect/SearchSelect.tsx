@@ -1,17 +1,19 @@
 import { ChangeEvent, useState } from 'react';
 
-type RegionValueProps = {
-  setEndpointValue: (endpoint:string) => void;
+type RegionProps = {
+  setValue: (value:string) => void;
+  setEndpoint: (endpoint:string) => void;
 }
 
-export const SearchSelect = ({setEndpointValue}:RegionValueProps) => {
+export const SearchSelect = ({setValue,setEndpoint}:RegionProps) => {
 
   const [regionValue, setRegionValue] = useState('all');
 
   const handleRegionValue = (e:ChangeEvent<HTMLSelectElement>) => {
     const region = e.target.value
     setRegionValue(region);
-    setEndpointValue((region !== 'all')  ? `region/${region}`  : 'all')
+    setValue(region);
+    setEndpoint('region')
   }
   
   return (
