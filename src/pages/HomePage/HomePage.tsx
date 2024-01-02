@@ -8,13 +8,11 @@ import './HomePageStyles.css';
 
 export const HomePage = () => {
 
-  const [value, setValue] = useState('');
-  const [endpoint, setEndpoint] = useState('')
   const [countries, setCountries] = useState<CountriesData[]>([]);
 
-  const getCountriesData = async (endpoint:string, value?:string) => {
+  const getCountriesData = async () => {
     try {
-      const countriesInfo:CountriesData[] = await getCountries(endpoint,value);
+      const countriesInfo:CountriesData[] = await getCountries();
       setCountries(countriesInfo);
     } catch (error) {
       console.error(error)
@@ -22,14 +20,14 @@ export const HomePage = () => {
   }
 
   useEffect(() => {
-    getCountriesData(endpoint,value);
-  },[endpoint,value])
+    getCountriesData();
+  },[]);
   
   return (
     <>
       <section className="search-container">
         <SearchInput/>
-        <SearchSelect setValue={setValue} setEndpoint={setEndpoint}/>
+        <SearchSelect setCountries={setCountries}/>
       </section>
 
       <section className="country-cards-container">
