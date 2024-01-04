@@ -10,7 +10,8 @@ export const SearchInput = ({setCountryName}:SearchProps) => {
 
   const handleNameValue = async (e:ChangeEvent<HTMLInputElement>) => {
     const countryName = e.target.value;
-    setCountryName(countryName);
+    const countryCapitalizedFirstLetter = countryName.charAt(0).toUpperCase() + countryName.slice(1);
+    setCountryName(countryCapitalizedFirstLetter);
   }
 
 
