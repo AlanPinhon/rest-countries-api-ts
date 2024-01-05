@@ -25,6 +25,8 @@ export const HomePage = () => {
       </section>
 
       <section className="country-cards-container">
+
+        {(filteredCountries.length === 0) && <h1>No hay países disponibles con el valor ingresado</h1>}
         
         { filteredCountries.map( country => (
           <CountryCard
