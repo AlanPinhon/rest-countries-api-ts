@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { CountryCard } from '../../components/CountryCard/CountryCard';
 import { SearchInput } from '../../components/SearchInput/SearchInput';
 import { SearchSelect } from '../../components/SearchSelect/SearchSelect';
-import { CountriesData } from '../../types/CountriesTypes';
+import { ServerErrorMsg } from '../../components/ServerErrorMsg/ServerErrorMsg';
 import { useFilterCountries } from '../../hooks/useFilterCountries';
 import './HomePageStyles.css';
 
@@ -11,7 +11,11 @@ export const HomePage = () => {
   const [countryRegion, setCountryRegion] = useState('');
   const [countryName, setCountryName] = useState('');
 
-  const countries:CountriesData[] = useFilterCountries(countryRegion,countryName);
+  const {filteredCountries, error, isLoading, getCountriesData} = useFilterCountries(countryRegion,countryName);
+
+  if(isLoading) return <h1 className="loading-text">Loading Countries...</h1>
+
+  if(error) return <ServerErrorMsg getCountriesData={getCountriesData} />
   
   return (
     <>
@@ -22,7 +26,7 @@ export const HomePage = () => {
 
       <section className="country-cards-container">
         
-        { countries.map( country => (
+        { filteredCountries.map( country => (
           <CountryCard
             key={country.name.common}
             country={country}
