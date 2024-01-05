@@ -1,38 +1,32 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { CountryCard } from '../../components/CountryCard/CountryCard';
 import { SearchInput } from '../../components/SearchInput/SearchInput';
 import { SearchSelect } from '../../components/SearchSelect/SearchSelect';
-import { CountriesData } from '../../types/CountriesTypes';
-import { getCountries } from '../../helpers/getCountries';
+import { ServerErrorMsg } from '../../components/ServerErrorMsg/ServerErrorMsg';
+import { useFilterCountries } from '../../hooks/useFilterCountries';
 import './HomePageStyles.css';
 
 export const HomePage = () => {
 
-  const [countries, setCountries] = useState<CountriesData[]>([]);
+  const [countryRegion, setCountryRegion] = useState('');
+  const [countryName, setCountryName] = useState('');
 
-  const getCountriesData = async () => {
-    try {
-      const countriesInfo:CountriesData[] = await getCountries();
-      setCountries(countriesInfo);
-    } catch (error) {
-      console.error(error)
-    }
-  }
+  const {filteredCountries, error, isLoading, getCountriesData} = useFilterCountries(countryRegion,countryName);
 
-  useEffect(() => {
-    getCountriesData();
-  },[]);
+  if(isLoading) return <h1 className="loading-text">Loading Countries...</h1>
+
+  if(error) return <ServerErrorMsg getCountriesData={getCountriesData} />
   
   return (
     <>
       <section className="search-container">
-        <SearchInput/>
-        <SearchSelect setCountries={setCountries}/>
+        <SearchInput setCountryName={setCountryName}/>
+        <SearchSelect setCountryRegion={setCountryRegion}/>
       </section>
 
       <section className="country-cards-container">
         
-        { countries.map( country => (
+        { filteredCountries.map( country => (
           <CountryCard
             key={country.name.common}
             country={country}

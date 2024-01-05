@@ -1,26 +1,19 @@
-import { ChangeEvent, useState } from 'react';
-import { getCountriesByRegion } from '../../helpers/getCountriesByRegion';
-import { CountriesData } from '../../types/CountriesTypes';
+import { ChangeEvent } from 'react';
 
 type RegionProps = {
-  setCountries: (countries:CountriesData[]) => void;
+  setCountryRegion: (region:string) => void;
 }
 
-export const SearchSelect = ({setCountries}:RegionProps) => {
-
-  const [regionValue, setRegionValue] = useState('All');
+export const SearchSelect = ({setCountryRegion}:RegionProps) => {
 
   const handleRegionValue = async (e:ChangeEvent<HTMLSelectElement>) => {
     const region = e.target.value
-    setRegionValue(region);
-
-    const countries:CountriesData[] = await getCountriesByRegion(region);
-    setCountries(countries);
+    setCountryRegion(region);
   };
   
   return (
     <div className="select-container">
-      <select value={regionValue} onChange={handleRegionValue} name="region-select" id="region-select">
+      <select onChange={handleRegionValue} name="region-select" id="region-select">
         <option value="All">Filter by Region</option>
         <option value="Africa">Africa</option>
         <option value="Americas">Americas</option>
