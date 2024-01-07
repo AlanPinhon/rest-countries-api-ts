@@ -21,3 +21,19 @@
     object-position: center center;
   }
 }
+
+.country-info-container{
+
+  & .country-name{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: var(--nunito-extrabold);
+    cursor: pointer;
+
+    &:hover{
+      color: var(--light-mode-input);
+
+    }
+  }
+
+}

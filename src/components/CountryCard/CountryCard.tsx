@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { CountriesData } from '../../types/CountriesTypes';
 import './CountryCardStyles.css';
 
@@ -7,7 +8,10 @@ type CountryProps = {
 
 export const CountryCard = ({country}:CountryProps) => {
 
-  const {flags, name, population, region, capital} = country;
+  const {flags, name:{common}, population, region, capital} = country;
+
+  const paramName = common.toLowerCase().split(' ').join('-');
+
   return (
     <div className="country-card">
       
@@ -17,7 +21,7 @@ export const CountryCard = ({country}:CountryProps) => {
 
       <div className="country-info-container">
 
-        <h3 className="country-name">{name.common}</h3>
+        <Link to={`/country/${paramName}`} className="country-name">{common}</Link>
 
         <div className="population-info">
           <p className="bold-prop-text">Population:</p>

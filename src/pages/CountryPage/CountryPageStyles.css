@@ -1,0 +1,22 @@
+.container-country-info{
+
+  & .container-country-props{
+
+    & .country-value{
+      font-weight: var(--nunito-light)
+    }
+  }
+}
+
+.container-country-borders{
+
+  & .button-link-sm{
+    text-decoration: none;
+    color: var(--white);
+
+    &:hover{
+      color: var(--light-mode-input);
+
+    }
+  }
+}
