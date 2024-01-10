@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
-import { CountryInfo } from '../pages/CountryInfo/CountryInfo';
+import { CountryPage } from '../pages/CountryPage/CountryPage';
 import { HomePage } from '../pages/HomePage/HomePage';
 import { Header } from '../components/Header/Header';
 
@@ -8,8 +8,8 @@ export const CountriesAppRouter = () => {
     <>
       <Header/>
       <Routes>
-        <Route path="home" element={<HomePage />} />
-        <Route path="country-info" element={<CountryInfo />} />
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/country/:countryName" element={<CountryPage />} />
 
         <Route path="/" element={<Navigate to="/home" />} />
       </Routes>
