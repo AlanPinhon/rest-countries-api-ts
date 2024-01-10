@@ -1,9 +1,7 @@
 import { CountriesData } from "../types/CountriesTypes";
 
 export const getCountries = async (endpoint?:string) => {
-  let url = `https://restcountries.com/v3.1/`;
-
-  (endpoint) ? url = url+= `name/${endpoint}` : url += 'all'; 
+  const url = `https://restcountries.com/v3.1/${endpoint || "all"}`;
 
   const response = await fetch(url);
   const data:CountriesData[] = await response.json();
