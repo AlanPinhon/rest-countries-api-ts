@@ -1,8 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { CountriesData } from '../types/CountriesTypes';
 import { getCountries } from '../helpers/getCountries';
+import { CountriesContext } from '../context/CountriesContext';
 
 export const useFilterCountries = (regionValue:string, searchValue:string) => {
+
+  const { setStore } = useContext(CountriesContext);
 
   const [error, setError] = useState<Error | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -40,5 +43,9 @@ export const useFilterCountries = (regionValue:string, searchValue:string) => {
     setFilteredCountries(result);
   }, [regionValue, searchValue, countries]);
 
-  return {filteredCountries, error, isLoading, getCountriesData};
+  useEffect(() => {
+    setStore(filteredCountries);
+  },[filteredCountries, setStore])
+
+  return {filteredCountries ,error, isLoading, getCountriesData};
 }
