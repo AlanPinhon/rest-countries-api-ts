@@ -2,8 +2,15 @@ import {Dispatch, SetStateAction, createContext } from 'react';
 import { CountriesData } from '../types/CountriesTypes';
 
 export type CountriesContextType = {
-  store: CountriesData[];
-  setStore: Dispatch<SetStateAction<CountriesData[]>>;
+  store: StoreContextType;
+  setStore: Dispatch<SetStateAction<StoreContextType>>;
 }
 
-export const CountriesContext = createContext<CountriesContextType>({store:[],setStore: () => {}});
+export type StoreContextType = {
+  countries: CountriesData[];
+  filteredCountries: CountriesData[];
+}
+
+export const CountriesContext = createContext<CountriesContextType>( { 
+  store:{countries:[], filteredCountries:[]}, setStore: () => {} 
+} );

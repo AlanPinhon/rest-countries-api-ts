@@ -1,51 +1,48 @@
-import { useContext, useEffect, useState } from 'react';
+import { useCallback, useContext, useEffect, useState } from 'react';
 import { CountriesData } from '../types/CountriesTypes';
 import { getCountries } from '../helpers/getCountries';
 import { CountriesContext } from '../context/CountriesContext';
 
 export const useFilterCountries = (regionValue:string, searchValue:string) => {
 
-  const { setStore } = useContext(CountriesContext);
+  const { store , setStore } = useContext(CountriesContext);
 
   const [error, setError] = useState<Error | null>(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [countries, setCountries] = useState<CountriesData[]>([]);
-  const [filteredCountries, setFilteredCountries] = useState<CountriesData[]>([]);
   
-  const getCountriesData = async () => {
+  const getCountriesData = useCallback( async () => {
     try {
-      const countriesInfo:CountriesData[] = await getCountries();
-      setCountries(countriesInfo);
-      setError(null);
       setIsLoading(false);
+      if(store.countries.length !== 0) return;
+      
+      const countries:CountriesData[] = await getCountries();
+      setStore( (currentStore) => ({ ...currentStore, countries}));
+      setError(null);
     } catch (error) {
       setError(error as Error);
       setIsLoading(false);
     }
-  }
+  }, [store, setStore]); 
   
   useEffect(() => {
     getCountriesData();
-  },[]);
+  },[getCountriesData]);
+  
   
   useEffect(() => {
     const region = ['Africa', 'Americas', 'Antarctic', 'Asia', 'Europe', 'Oceania'];
-    let result = countries;
-
+    let filteredCountries = store.countries;
+    
     if(region.includes(regionValue)) {
-      result = result.filter(country => country.region === regionValue);
+      filteredCountries = filteredCountries.filter(country => country.region === regionValue);
     }
     
     if(searchValue) {
-      result = result.filter(country => country.name.common.toLowerCase().includes(searchValue.toLowerCase()));
+      filteredCountries = filteredCountries.filter(country => country.name.common.toLowerCase().includes(searchValue.toLowerCase()));
     }
-
-    setFilteredCountries(result);
-  }, [regionValue, searchValue, countries]);
-
-  useEffect(() => {
-    setStore(filteredCountries);
-  },[filteredCountries, setStore])
-
-  return {filteredCountries ,error, isLoading, getCountriesData};
+    
+    setStore({countries:store.countries, filteredCountries: filteredCountries});
+  }, [regionValue, searchValue, store.countries, setStore]);
+  
+  return { error, isLoading, getCountriesData };
 }

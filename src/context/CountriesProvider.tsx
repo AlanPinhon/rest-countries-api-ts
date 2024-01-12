@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { CountriesContext, CountriesContextType } from './CountriesContext';
-import { CountriesData } from '../types/CountriesTypes';
+import { CountriesContext, CountriesContextType, StoreContextType } from './CountriesContext';
 
 interface ProviderProps {
   children: React.ReactNode;
@@ -8,7 +7,10 @@ interface ProviderProps {
 
 export const CountriesProvider:React.FC<ProviderProps> = ({children}) => {
 
-  const [store, setStore] = useState<CountriesData[]>([]);
+  const [store, setStore] = useState<StoreContextType>({
+    countries: [],
+    filteredCountries: [],
+  });
 
   const contextValue:CountriesContextType = { store, setStore };
   
