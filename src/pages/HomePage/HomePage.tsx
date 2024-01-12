@@ -1,17 +1,20 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import { CountryCard } from '../../components/CountryCard/CountryCard';
 import { SearchInput } from '../../components/SearchInput/SearchInput';
 import { SearchSelect } from '../../components/SearchSelect/SearchSelect';
 import { ServerErrorMsg } from '../../components/ServerErrorMsg/ServerErrorMsg';
 import { useFilterCountries } from '../../hooks/useFilterCountries';
+import { CountriesContext } from '../../context/CountriesContext';
 import './HomePageStyles.css';
 
 export const HomePage = () => {
 
+  const { store:{filteredCountries} } = useContext(CountriesContext);
+
   const [countryRegion, setCountryRegion] = useState('');
   const [countryName, setCountryName] = useState('');
 
-  const {filteredCountries, error, isLoading, getCountriesData} = useFilterCountries(countryRegion,countryName);
+  const { error, isLoading, getCountriesData } = useFilterCountries(countryRegion,countryName);
 
   if(isLoading) return <h1 className="loading-text">Loading Countries...</h1>
 
