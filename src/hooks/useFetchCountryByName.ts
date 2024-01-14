@@ -12,12 +12,18 @@ export const useFetchCountryByName = (countryName:string) => {
   const [currencyName, setCurrencyName] = useState<string[]>([]);
   const [languagesName, setLanguagesName] = useState<(string | undefined)[]>();
   const [nativeName, setNativeName] = useState<Translation | undefined>();
+  const [countryExist, setCountryExist] = useState(true);
 
   const getCountryByName = useCallback((name:string) => {
     const countryName = name.toLowerCase().split('-').join(' ');
     
     const countryData = store.countries.find(country => country.name.common.toLowerCase() === countryName);
-    (countryData) && setCountry(countryData);
+    if(countryData){
+      setCountry(countryData)
+      setCountryExist(true)
+    } else{
+      setCountryExist(false);
+    }
   },[store])
 
 
@@ -37,5 +43,5 @@ export const useFetchCountryByName = (countryName:string) => {
     setNativeName(nameValue);
   },[country])
 
-  return{ ...country, currencyName, languagesName, nativeName }
+  return{ ...country, currencyName, languagesName, nativeName, countryExist }
 }

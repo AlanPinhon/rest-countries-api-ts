@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams, Link, Navigate } from 'react-router-dom';
 import { CountriesContext } from '../../context/CountriesContext';
 import { useFetchCountryByName } from '../../hooks/useFetchCountryByName';
 import { getNamesByCode } from '../../helpers/getNamesByCode';
@@ -10,15 +10,18 @@ export const CountryPage = () => {
   const { store:{countries} } = useContext(CountriesContext);
 
   const { countryName } = useParams();
-  const navigate = useNavigate();
   
-  const { nativeName, languagesName, currencyName, name, flags, flag, population, region, subregion, capital, tld, borders } = useFetchCountryByName(countryName!);
+  const { nativeName, languagesName, currencyName, name, flags, flag, population, region, subregion, capital, tld, borders, countryExist } = useFetchCountryByName(countryName!);
   
   const borderCountries = getNamesByCode(countries,borders!)  
+
+  if(!countryExist){
+    return <Navigate to="/home"/>
+  }
   
   return (
     <section className='container-page'>
-      <Link to="/" onClick={() => navigate(-1)} className='button-link'>Back</Link>
+      <Link to="/home" className='button-link'>Back</Link>
 
       <div className="container-country">
 
