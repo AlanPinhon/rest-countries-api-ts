@@ -1,14 +1,20 @@
+import { useContext } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
+import { CountriesContext } from '../../context/CountriesContext';
 import { useFetchCountryByName } from '../../hooks/useFetchCountryByName';
+import { getNamesByCode } from '../../helpers/getNamesByCode';
 import './CountryPageStyles.css';
 
 export const CountryPage = () => {
+
+  const { store:{countries} } = useContext(CountriesContext);
 
   const { countryName } = useParams();
   const navigate = useNavigate();
   
   const { nativeName, languagesName, currencyName, name, flags, flag, population, region, subregion, capital, tld, borders } = useFetchCountryByName(countryName!);
   
+  const borderCountries = getNamesByCode(countries,borders!)  
   
   return (
     <section className='container-page'>
@@ -46,9 +52,17 @@ export const CountryPage = () => {
         <div className="container-country-borders">
           <strong>Border:</strong>
 
-          {(!borders) ? <p>There aren't countries</p> : borders?.map(country => (
-            <a key={country} className='button-link-sm' href="">{country}</a>
-          ))}
+          {
+            (borderCountries && borderCountries.length > 0)
+              ? borderCountries.sort().map(border => (
+                <Link
+                  to={`/country/${border.toLowerCase().split(' ').join('-')}`}
+                  className='button-link-sm'
+                  key={border}>{border}
+                </Link>
+              ))
+              : <p>There aren't countries</p>
+          }
           
         </div>
 
