@@ -29,7 +29,7 @@ export const HomePage = () => {
 
       <section className="country-cards-container">
 
-        {(filteredCountries.length === 0) && <h1>The country entered doesn't exist</h1>}
+        {(filteredCountries.length < 0) && <h1>The country entered doesn't exist</h1>}
         
         { filteredCountries.map( country => (
           <CountryCard

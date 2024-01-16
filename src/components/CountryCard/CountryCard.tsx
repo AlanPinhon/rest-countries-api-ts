@@ -35,7 +35,7 @@ export const CountryCard = ({country}:CountryProps) => {
 
         <div className="capital-info">
           <p className="bold-prop-text">Capital:</p>
-          <p className="prop-value">{capital}</p>
+          <p className="prop-value">{capital || "N/A"}</p>
         </div>
         
       </div>

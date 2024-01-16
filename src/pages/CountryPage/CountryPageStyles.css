@@ -18,6 +18,8 @@
   & .button-link-sm{
     text-decoration: none;
     color: var(--white);
+    cursor: pointer;
+    margin: 0 .5rem;
 
     &:hover{
       color: var(--light-mode-input);
