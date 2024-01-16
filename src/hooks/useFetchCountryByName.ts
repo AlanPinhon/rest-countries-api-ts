@@ -8,22 +8,16 @@ import { CountriesContext } from '../context/CountriesContext';
 export const useFetchCountryByName = (countryName:string) => {
   const { store } = useContext(CountriesContext);
 
-  const [country, setCountry] = useState<CountriesData>({} as CountriesData);
+  const [country, setCountry] = useState<CountriesData | undefined>({} as CountriesData);
   const [currencyName, setCurrencyName] = useState<string[]>([]);
   const [languagesName, setLanguagesName] = useState<(string | undefined)[]>();
   const [nativeName, setNativeName] = useState<Translation | undefined>();
-  const [countryExist, setCountryExist] = useState(true);
 
   const getCountryByName = useCallback((name:string) => {
     const countryName = name.toLowerCase().split('-').join(' ');
     
     const countryData = store.countries.find(country => country.name.common.toLowerCase() === countryName);
-    if(countryData){
-      setCountry(countryData)
-      setCountryExist(true)
-    } else{
-      setCountryExist(false);
-    }
+    setCountry(countryData);
   },[store])
 
 
@@ -32,6 +26,7 @@ export const useFetchCountryByName = (countryName:string) => {
   }, [countryName, getCountryByName]);
 
   useEffect(() => {
+    if(country) {
     const {currencies, languages, name} = country;
     
     const currValue = getCurrenciesValues(currencies);
@@ -41,7 +36,8 @@ export const useFetchCountryByName = (countryName:string) => {
     setCurrencyName(currValue);
     setLanguagesName(langValue);
     setNativeName(nameValue);
+    }
   },[country])
 
-  return{ ...country, currencyName, languagesName, nativeName, countryExist }
+  return{ ...country, currencyName, languagesName, nativeName, countryExist:Boolean(country) }
 }
