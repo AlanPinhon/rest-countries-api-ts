@@ -1,217 +1,640 @@
 [
   {
-      "name": {
-          "common": "Mexico",
-          "official": "United Mexican States",
-          "nativeName": {
-              "spa": {
-                  "official": "Estados Unidos Mexicanos",
-                  "common": "México"
-              }
-          }
-      },
-      "tld": [
-          ".mx"
-      ],
-      "cca2": "MX",
-      "ccn3": "484",
-      "cca3": "MEX",
-      "cioc": "MEX",
-      "independent": true,
-      "status": "officially-assigned",
-      "unMember": true,
-      "currencies": {
-          "MXN": {
-              "name": "Mexican peso",
-              "symbol": "$"
-          }
-      },
-      "idd": {
-          "root": "+5",
-          "suffixes": [
-              "2"
-          ]
-      },
-      "capital": [
-          "Mexico City"
-      ],
-      "altSpellings": [
-          "MX",
-          "Mexicanos",
-          "United Mexican States",
-          "Estados Unidos Mexicanos"
-      ],
-      "region": "Americas",
-      "subregion": "North America",
-      "languages": {
-          "spa": "Spanish"
-      },
-      "translations": {
-          "ara": {
-              "official": "الولايات المتحدة المكسيكية",
-              "common": "المسكيك"
-          },
-          "bre": {
-              "official": "Stadoù-Unanet Mec'hiko",
-              "common": "Mec'hiko"
-          },
-          "ces": {
-              "official": "Spojené státy mexické",
-              "common": "Mexiko"
-          },
-          "cym": {
-              "official": "United Mexican States",
-              "common": "Mexico"
-          },
-          "deu": {
-              "official": "Vereinigte Mexikanische Staaten",
-              "common": "Mexiko"
-          },
-          "est": {
-              "official": "Mehhiko Ühendriigid",
-              "common": "Mehhiko"
-          },
-          "fin": {
-              "official": "Meksikon yhdysvallat",
-              "common": "Meksiko"
-          },
-          "fra": {
-              "official": "États-Unis du Mexique",
-              "common": "Mexique"
-          },
-          "hrv": {
-              "official": "Sjedinjene Meksičke Države",
-              "common": "Meksiko"
-          },
-          "hun": {
-              "official": "Mexikói Egyesült Államok",
-              "common": "Mexikó"
-          },
-          "ita": {
-              "official": "Stati Uniti del Messico",
-              "common": "Messico"
-          },
-          "jpn": {
-              "official": "メキシコ合衆国",
-              "common": "メキシコ"
-          },
-          "kor": {
-              "official": "멕시코 합중국",
-              "common": "멕시코"
-          },
-          "nld": {
-              "official": "Verenigde Mexicaanse Staten",
-              "common": "Mexico"
-          },
-          "per": {
-              "official": "ایالات متحد مکزیک",
-              "common": "مکزیک"
-          },
-          "pol": {
-              "official": "Meksykańskie Stany Zjednoczone",
-              "common": "Meksyk"
-          },
-          "por": {
-              "official": "Estados Unidos Mexicanos",
-              "common": "México"
-          },
-          "rus": {
-              "official": "Мексиканские Соединённые Штаты",
-              "common": "Мексика"
-          },
-          "slk": {
-              "official": "Spojené štášy mexické",
-              "common": "Mexiko"
-          },
-          "spa": {
-              "official": "Estados Unidos Mexicanos",
-              "common": "México"
-          },
-          "srp": {
-              "official": "Сједињене Мексичке Државе",
-              "common": "Мексико"
-          },
-          "swe": {
-              "official": "Mexikos förenta stater",
-              "common": "Mexiko"
-          },
-          "tur": {
-              "official": "Birleşik Meksika Devletleri",
-              "common": "Meksika"
-          },
-          "urd": {
-              "official": "ریاستہائے متحدہ میکسیکو",
-              "common": "میکسیکو"
-          },
-          "zho": {
-              "official": "墨西哥合众国",
-              "common": "墨西哥"
-          }
-      },
-      "latlng": [
-          23.0,
-          -102.0
-      ],
-      "landlocked": false,
-      "borders": [
-          "BLZ",
-          "GTM",
-          "USA"
-      ],
-      "area": 1964375.0,
-      "demonyms": {
-          "eng": {
-              "f": "Mexican",
-              "m": "Mexican"
-          },
-          "fra": {
-              "f": "Mexicaine",
-              "m": "Mexicain"
-          }
-      },
-      "flag": "🇲🇽",
-      "maps": {
-          "googleMaps": "https://goo.gl/maps/s5g7imNPMDEePxzbA",
-          "openStreetMaps": "https://www.openstreetmap.org/relation/114686"
-      },
-      "population": 128932753,
-      "gini": {
-          "2018": 45.4
-      },
-      "fifa": "MEX",
-      "car": {
-          "signs": [
-              "MEX"
-          ],
-          "side": "right"
-      },
-      "timezones": [
-          "UTC-08:00",
-          "UTC-07:00",
-          "UTC-06:00"
-      ],
-      "continents": [
-          "North America"
-      ],
-      "flags": {
-          "png": "https://flagcdn.com/w320/mx.png",
-          "svg": "https://flagcdn.com/mx.svg",
-          "alt": "The flag of Mexico is composed of three equal vertical bands of green, white and red, with the national coat of arms centered in the white band."
-      },
-      "coatOfArms": {
-          "png": "https://mainfacts.com/media/images/coats_of_arms/mx.png",
-          "svg": "https://mainfacts.com/media/images/coats_of_arms/mx.svg"
-      },
-      "startOfWeek": "monday",
-      "capitalInfo": {
-          "latlng": [
-              19.43,
-              -99.13
-          ]
-      },
-      "postalCode": {
-          "format": "#####",
-          "regex": "^(\\d{5})$"
-      }
+    "name": {
+        "common": "Mexico",
+        "official": "United Mexican States",
+        "nativeName": {
+            "spa": {
+                "official": "Estados Unidos Mexicanos",
+                "common": "México"
+            }
+        }
+    },
+    "tld": [
+        ".mx"
+    ],
+    "cca2": "MX",
+    "ccn3": "484",
+    "cca3": "MEX",
+    "cioc": "MEX",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+        "MXN": {
+            "name": "Mexican peso",
+            "symbol": "$"
+        }
+    },
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "2"
+        ]
+    },
+    "capital": [
+        "Mexico City"
+    ],
+    "altSpellings": [
+        "MX",
+        "Mexicanos",
+        "United Mexican States",
+        "Estados Unidos Mexicanos"
+    ],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": {
+        "spa": "Spanish"
+    },
+    "translations": {
+        "ara": {
+            "official": "الولايات المتحدة المكسيكية",
+            "common": "المسكيك"
+        },
+        "bre": {
+            "official": "Stadoù-Unanet Mec'hiko",
+            "common": "Mec'hiko"
+        },
+        "ces": {
+            "official": "Spojené státy mexické",
+            "common": "Mexiko"
+        },
+        "cym": {
+            "official": "United Mexican States",
+            "common": "Mexico"
+        },
+        "deu": {
+            "official": "Vereinigte Mexikanische Staaten",
+            "common": "Mexiko"
+        },
+        "est": {
+            "official": "Mehhiko Ühendriigid",
+            "common": "Mehhiko"
+        },
+        "fin": {
+            "official": "Meksikon yhdysvallat",
+            "common": "Meksiko"
+        },
+        "fra": {
+            "official": "États-Unis du Mexique",
+            "common": "Mexique"
+        },
+        "hrv": {
+            "official": "Sjedinjene Meksičke Države",
+            "common": "Meksiko"
+        },
+        "hun": {
+            "official": "Mexikói Egyesült Államok",
+            "common": "Mexikó"
+        },
+        "ita": {
+            "official": "Stati Uniti del Messico",
+            "common": "Messico"
+        },
+        "jpn": {
+            "official": "メキシコ合衆国",
+            "common": "メキシコ"
+        },
+        "kor": {
+            "official": "멕시코 합중국",
+            "common": "멕시코"
+        },
+        "nld": {
+            "official": "Verenigde Mexicaanse Staten",
+            "common": "Mexico"
+        },
+        "per": {
+            "official": "ایالات متحد مکزیک",
+            "common": "مکزیک"
+        },
+        "pol": {
+            "official": "Meksykańskie Stany Zjednoczone",
+            "common": "Meksyk"
+        },
+        "por": {
+            "official": "Estados Unidos Mexicanos",
+            "common": "México"
+        },
+        "rus": {
+            "official": "Мексиканские Соединённые Штаты",
+            "common": "Мексика"
+        },
+        "slk": {
+            "official": "Spojené štášy mexické",
+            "common": "Mexiko"
+        },
+        "spa": {
+            "official": "Estados Unidos Mexicanos",
+            "common": "México"
+        },
+        "srp": {
+            "official": "Сједињене Мексичке Државе",
+            "common": "Мексико"
+        },
+        "swe": {
+            "official": "Mexikos förenta stater",
+            "common": "Mexiko"
+        },
+        "tur": {
+            "official": "Birleşik Meksika Devletleri",
+            "common": "Meksika"
+        },
+        "urd": {
+            "official": "ریاستہائے متحدہ میکسیکو",
+            "common": "میکسیکو"
+        },
+        "zho": {
+            "official": "墨西哥合众国",
+            "common": "墨西哥"
+        }
+    },
+    "latlng": [
+        23.0,
+        -102.0
+    ],
+    "landlocked": false,
+    "borders": [
+        "BLZ",
+        "GTM",
+        "USA"
+    ],
+    "area": 1964375.0,
+    "demonyms": {
+        "eng": {
+            "f": "Mexican",
+            "m": "Mexican"
+        },
+        "fra": {
+            "f": "Mexicaine",
+            "m": "Mexicain"
+        }
+    },
+    "flag": "🇲🇽",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/s5g7imNPMDEePxzbA",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/114686"
+    },
+    "population": 128932753,
+    "gini": {
+        "2018": 45.4
+    },
+    "fifa": "MEX",
+    "car": {
+        "signs": [
+            "MEX"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-08:00",
+        "UTC-07:00",
+        "UTC-06:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/mx.png",
+        "svg": "https://flagcdn.com/mx.svg",
+        "alt": "The flag of Mexico is composed of three equal vertical bands of green, white and red, with the national coat of arms centered in the white band."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/mx.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/mx.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            19.43,
+            -99.13
+        ]
+    },
+    "postalCode": {
+        "format": "#####",
+        "regex": "^(\\d{5})$"
+    }
+  },
+  {
+    "name": {
+        "common": "Cameroon",
+        "official": "Republic of Cameroon",
+        "nativeName": {
+            "eng": {
+                "official": "Republic of Cameroon",
+                "common": "Cameroon"
+            },
+            "fra": {
+                "official": "République du Cameroun",
+                "common": "Cameroun"
+            }
+        }
+    },
+    "tld": [
+        ".cm"
+    ],
+    "cca2": "CM",
+    "ccn3": "120",
+    "cca3": "CMR",
+    "cioc": "CMR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+        "XAF": {
+            "name": "Central African CFA franc",
+            "symbol": "Fr"
+        }
+    },
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "37"
+        ]
+    },
+    "capital": [
+        "Yaoundé"
+    ],
+    "altSpellings": [
+        "CM",
+        "Republic of Cameroon",
+        "République du Cameroun"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": {
+        "eng": "English",
+        "fra": "French"
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية الكاميرون",
+            "common": "الكاميرون"
+        },
+        "bre": {
+            "official": "Republik Kameroun",
+            "common": "Kameroun"
+        },
+        "ces": {
+            "official": "Kamerunská republika",
+            "common": "Kamerun"
+        },
+        "cym": {
+            "official": "Gweriniaeth Camerŵn",
+            "common": "Camerŵn"
+        },
+        "deu": {
+            "official": "Republik Kamerun",
+            "common": "Kamerun"
+        },
+        "est": {
+            "official": "Kameruni Vabariik",
+            "common": "Kamerun"
+        },
+        "fin": {
+            "official": "Kamerunin tasavalta",
+            "common": "Kamerun"
+        },
+        "fra": {
+            "official": "République du Cameroun",
+            "common": "Cameroun"
+        },
+        "hrv": {
+            "official": "Republika Kamerun",
+            "common": "Kamerun"
+        },
+        "hun": {
+            "official": "Kameruni Köztársaság",
+            "common": "Kamerun"
+        },
+        "ita": {
+            "official": "Repubblica del Camerun",
+            "common": "Camerun"
+        },
+        "jpn": {
+            "official": "カメルーン共和国",
+            "common": "カメルーン"
+        },
+        "kor": {
+            "official": "카메룬 공화국",
+            "common": "카메룬"
+        },
+        "nld": {
+            "official": "Republiek Kameroen",
+            "common": "Kameroen"
+        },
+        "per": {
+            "official": "جمهوری کامِرون",
+            "common": "کامِرون"
+        },
+        "pol": {
+            "official": "Republika Kamerunu",
+            "common": "Kamerun"
+        },
+        "por": {
+            "official": "República dos Camarões",
+            "common": "Camarões"
+        },
+        "rus": {
+            "official": "Республика Камерун",
+            "common": "Камерун"
+        },
+        "slk": {
+            "official": "Kamerunská republika",
+            "common": "Kamerun"
+        },
+        "spa": {
+            "official": "República de Camerún",
+            "common": "Camerún"
+        },
+        "srp": {
+            "official": "Република Камерун",
+            "common": "Камерун"
+        },
+        "swe": {
+            "official": "Republiken Kamerun",
+            "common": "Kamerun"
+        },
+        "tur": {
+            "official": "Kamerun Cumhuriyeti",
+            "common": "Kamerun"
+        },
+        "urd": {
+            "official": "جمہوریہ کیمرون",
+            "common": "کیمرون"
+        },
+        "zho": {
+            "official": "喀麦隆共和国",
+            "common": "喀麦隆"
+        }
+    },
+    "latlng": [
+        6.0,
+        12.0
+    ],
+    "landlocked": false,
+    "borders": [
+        "CAF",
+        "TCD",
+        "COG",
+        "GNQ",
+        "GAB",
+        "NGA"
+    ],
+    "area": 475442.0,
+    "demonyms": {
+        "eng": {
+            "f": "Cameroonian",
+            "m": "Cameroonian"
+        },
+        "fra": {
+            "f": "Camerounaise",
+            "m": "Camerounais"
+        }
+    },
+    "flag": "🇨🇲",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/JqiipHgFboG3rBJh9",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/192830"
+    },
+    "population": 26545864,
+    "gini": {
+        "2014": 46.6
+    },
+    "fifa": "CMR",
+    "car": {
+        "signs": [
+            "CAM"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+01:00"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/cm.png",
+        "svg": "https://flagcdn.com/cm.svg",
+        "alt": "The flag of Cameroon is composed of three equal vertical bands of green, red and yellow, with a yellow five-pointed star in the center."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/cm.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/cm.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            3.85,
+            11.5
+        ]
+    }
+  },
+  {
+    "name": {
+        "common": "Yemen",
+        "official": "Republic of Yemen",
+        "nativeName": {
+            "ara": {
+                "official": "الجمهورية اليمنية",
+                "common": "اليَمَن"
+            }
+        }
+    },
+    "tld": [
+        ".ye"
+    ],
+    "cca2": "YE",
+    "ccn3": "887",
+    "cca3": "YEM",
+    "cioc": "YEM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+        "YER": {
+            "name": "Yemeni rial",
+            "symbol": "﷼"
+        }
+    },
+    "idd": {
+        "root": "+9",
+        "suffixes": [
+            "67"
+        ]
+    },
+    "capital": [
+        "Sana'a"
+    ],
+    "altSpellings": [
+        "YE",
+        "Yemeni Republic",
+        "al-Jumhūriyyah al-Yamaniyyah"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": {
+        "ara": "Arabic"
+    },
+    "translations": {
+        "ara": {
+            "official": "الجمهورية اليمنية",
+            "common": "اليمن"
+        },
+        "bre": {
+            "official": "Republik Yemen",
+            "common": "Yemen"
+        },
+        "ces": {
+            "official": "Jemenská republika",
+            "common": "Jemen"
+        },
+        "cym": {
+            "official": "Republic of Yemen",
+            "common": "Yemen"
+        },
+        "deu": {
+            "official": "Republik Jemen",
+            "common": "Jemen"
+        },
+        "est": {
+            "official": "Jeemeni Vabariik",
+            "common": "Jeemen"
+        },
+        "fin": {
+            "official": "Jemenin tasavalta",
+            "common": "Jemen"
+        },
+        "fra": {
+            "official": "République du Yémen",
+            "common": "Yémen"
+        },
+        "hrv": {
+            "official": "Republika Jemen",
+            "common": "Jemen"
+        },
+        "hun": {
+            "official": "Jemeni Köztársaság",
+            "common": "Jemen"
+        },
+        "ita": {
+            "official": "Repubblica dello Yemen",
+            "common": "Yemen"
+        },
+        "jpn": {
+            "official": "イエメン共和国",
+            "common": "イエメン"
+        },
+        "kor": {
+            "official": "예멘 공화국",
+            "common": "예멘"
+        },
+        "nld": {
+            "official": "Republiek Jemen",
+            "common": "Jemen"
+        },
+        "per": {
+            "official": "جمهوری یمن",
+            "common": "یمن"
+        },
+        "pol": {
+            "official": "Republika Jemeńska",
+            "common": "Jemen"
+        },
+        "por": {
+            "official": "República do Iêmen",
+            "common": "Iémen"
+        },
+        "rus": {
+            "official": "Йеменская Республика",
+            "common": "Йемен"
+        },
+        "slk": {
+            "official": "Jemenská republika",
+            "common": "Jemen"
+        },
+        "spa": {
+            "official": "República de Yemen",
+            "common": "Yemen"
+        },
+        "srp": {
+            "official": "Република Јемен",
+            "common": "Јемен"
+        },
+        "swe": {
+            "official": "Republiken Jemen",
+            "common": "Jemen"
+        },
+        "tur": {
+            "official": "Yemen Cumhuriyeti",
+            "common": "Yemen"
+        },
+        "urd": {
+            "official": "جمہوریہ یمن",
+            "common": "یمن"
+        },
+        "zho": {
+            "official": "也门共和国",
+            "common": "也门"
+        }
+    },
+    "latlng": [
+        15.0,
+        48.0
+    ],
+    "landlocked": false,
+    "borders": [
+        "OMN",
+        "SAU"
+    ],
+    "area": 527968.0,
+    "demonyms": {
+        "eng": {
+            "f": "Yemeni",
+            "m": "Yemeni"
+        },
+        "fra": {
+            "f": "Yéménite",
+            "m": "Yéménite"
+        }
+    },
+    "flag": "🇾🇪",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/WCmE76HKcLideQQw7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/305092"
+    },
+    "population": 29825968,
+    "gini": {
+        "2014": 36.7
+    },
+    "fifa": "YEM",
+    "car": {
+        "signs": [
+            "YAR"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+03:00"
+    ],
+    "continents": [
+        "Asia"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/ye.png",
+        "svg": "https://flagcdn.com/ye.svg",
+        "alt": "The flag of Yemen is composed of three equal horizontal bands of red, white and black."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ye.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ye.svg"
+    },
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+        "latlng": [
+            15.37,
+            44.19
+        ]
+    }
   }
 ]
