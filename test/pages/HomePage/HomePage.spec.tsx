@@ -9,6 +9,18 @@ import { CountriesProvider } from '../../../src/context/CountriesProvider';
 
 describe('Tests in <HomePage/>', () => {
 
+  const routes = [
+    {
+      path: "/",
+      element: <CountriesProvider><HomePage /></CountriesProvider>,
+    },
+  ];
+
+  const router = createMemoryRouter(routes, {
+    initialEntries: ["/"],
+    initialIndex: 1,
+  });
+
   test('should show the loading state', () => {
 
     render(<HomePage/>);
@@ -47,18 +59,6 @@ describe('Tests in <HomePage/>', () => {
 
   test('should show the home page with the country data', async () => {
 
-    const routes = [
-      {
-        path: "/",
-        element: <CountriesProvider><HomePage /></CountriesProvider>,
-      },
-    ];
-
-    const router = createMemoryRouter(routes, {
-      initialEntries: ["/"],
-      initialIndex: 1,
-    });
-
     render(<RouterProvider router={router} />);
 
     await waitForElementToBeRemoved(() => screen.queryByText('Loading Countries...'))
@@ -73,18 +73,6 @@ describe('Tests in <HomePage/>', () => {
   });
 
   test('should filter country by name', async () => {
-
-    const routes = [
-      {
-        path: "/",
-        element: <CountriesProvider><HomePage /></CountriesProvider>,
-      },
-    ];
-
-    const router = createMemoryRouter(routes, {
-      initialEntries: ["/"],
-      initialIndex: 1,
-    });
 
     render(<RouterProvider router={router} />);
 
@@ -102,18 +90,6 @@ describe('Tests in <HomePage/>', () => {
   test('should filter country by region', async () => {
 
     const user = userEvent.setup();
-
-    const routes = [
-      {
-        path: "/",
-        element: <CountriesProvider><HomePage /></CountriesProvider>,
-      },
-    ];
-
-    const router = createMemoryRouter(routes, {
-      initialEntries: ["/"],
-      initialIndex: 1,
-    });
 
     render(<RouterProvider router={router} />);
 
