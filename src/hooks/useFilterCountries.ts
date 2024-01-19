@@ -12,8 +12,10 @@ export const useFilterCountries = (regionValue:string, searchValue:string) => {
   
   const getCountriesData = useCallback( async () => {
     try {
-      setIsLoading(false);
-      if(store.countries.length !== 0) return;
+      
+      if(store.countries.length !== 0) {
+        return setIsLoading(false);
+      }
       
       const countries:CountriesData[] = await getCountries();
       setStore( (currentStore) => ({ ...currentStore, countries}));
