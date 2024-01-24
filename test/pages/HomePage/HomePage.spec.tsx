@@ -21,6 +21,10 @@ describe('Tests in <HomePage/>', () => {
     initialIndex: 1,
   });
 
+  const removeDOMElement = () => {
+    return waitForElementToBeRemoved(() => screen.queryByText('Loading Countries...'))
+  }
+
   test('should show the loading state', () => {
 
     render(<HomePage/>);
@@ -61,7 +65,7 @@ describe('Tests in <HomePage/>', () => {
 
     render(<RouterProvider router={router} />);
 
-    await waitForElementToBeRemoved(() => screen.queryByText('Loading Countries...'))
+    await removeDOMElement();
 
     const input = screen.getByPlaceholderText('Search for a country...') as HTMLInputElement;
     const select = screen.getByText('Filter by Region') as HTMLSelectElement;
@@ -93,7 +97,7 @@ describe('Tests in <HomePage/>', () => {
 
     render(<RouterProvider router={router} />);
 
-    await waitForElementToBeRemoved(() => screen.queryByText('Loading Countries...'))
+    await removeDOMElement();
 
     const select = screen.getByRole('combobox') as HTMLSelectElement;
     await user.selectOptions(select, 'Africa');

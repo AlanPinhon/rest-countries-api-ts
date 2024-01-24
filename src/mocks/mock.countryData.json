@@ -636,5 +636,1609 @@
             44.19
         ]
     }
+  },
+  {
+    "name": {
+        "common": "United States",
+        "official": "United States of America",
+        "nativeName": {
+            "eng": {
+                "official": "United States of America",
+                "common": "United States"
+            }
+        }
+    },
+    "tld": [
+        ".us"
+    ],
+    "cca2": "US",
+    "ccn3": "840",
+    "cca3": "USA",
+    "cioc": "USA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+        "USD": {
+            "name": "United States dollar",
+            "symbol": "$"
+        }
+    },
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "201",
+            "202",
+            "203",
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "212",
+            "213",
+            "214",
+            "215",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "224",
+            "225",
+            "227",
+            "228",
+            "229",
+            "231",
+            "234",
+            "239",
+            "240",
+            "248",
+            "251",
+            "252",
+            "253",
+            "254",
+            "256",
+            "260",
+            "262",
+            "267",
+            "269",
+            "270",
+            "272",
+            "274",
+            "276",
+            "281",
+            "283",
+            "301",
+            "302",
+            "303",
+            "304",
+            "305",
+            "307",
+            "308",
+            "309",
+            "310",
+            "312",
+            "313",
+            "314",
+            "315",
+            "316",
+            "317",
+            "318",
+            "319",
+            "320",
+            "321",
+            "323",
+            "325",
+            "327",
+            "330",
+            "331",
+            "334",
+            "336",
+            "337",
+            "339",
+            "346",
+            "347",
+            "351",
+            "352",
+            "360",
+            "361",
+            "364",
+            "380",
+            "385",
+            "386",
+            "401",
+            "402",
+            "404",
+            "405",
+            "406",
+            "407",
+            "408",
+            "409",
+            "410",
+            "412",
+            "413",
+            "414",
+            "415",
+            "417",
+            "419",
+            "423",
+            "424",
+            "425",
+            "430",
+            "432",
+            "434",
+            "435",
+            "440",
+            "442",
+            "443",
+            "447",
+            "458",
+            "463",
+            "464",
+            "469",
+            "470",
+            "475",
+            "478",
+            "479",
+            "480",
+            "484",
+            "501",
+            "502",
+            "503",
+            "504",
+            "505",
+            "507",
+            "508",
+            "509",
+            "510",
+            "512",
+            "513",
+            "515",
+            "516",
+            "517",
+            "518",
+            "520",
+            "530",
+            "531",
+            "534",
+            "539",
+            "540",
+            "541",
+            "551",
+            "559",
+            "561",
+            "562",
+            "563",
+            "564",
+            "567",
+            "570",
+            "571",
+            "573",
+            "574",
+            "575",
+            "580",
+            "585",
+            "586",
+            "601",
+            "602",
+            "603",
+            "605",
+            "606",
+            "607",
+            "608",
+            "609",
+            "610",
+            "612",
+            "614",
+            "615",
+            "616",
+            "617",
+            "618",
+            "619",
+            "620",
+            "623",
+            "626",
+            "628",
+            "629",
+            "630",
+            "631",
+            "636",
+            "641",
+            "646",
+            "650",
+            "651",
+            "657",
+            "660",
+            "661",
+            "662",
+            "667",
+            "669",
+            "678",
+            "681",
+            "682",
+            "701",
+            "702",
+            "703",
+            "704",
+            "706",
+            "707",
+            "708",
+            "712",
+            "713",
+            "714",
+            "715",
+            "716",
+            "717",
+            "718",
+            "719",
+            "720",
+            "724",
+            "725",
+            "727",
+            "730",
+            "731",
+            "732",
+            "734",
+            "737",
+            "740",
+            "743",
+            "747",
+            "754",
+            "757",
+            "760",
+            "762",
+            "763",
+            "765",
+            "769",
+            "770",
+            "772",
+            "773",
+            "774",
+            "775",
+            "779",
+            "781",
+            "785",
+            "786",
+            "801",
+            "802",
+            "803",
+            "804",
+            "805",
+            "806",
+            "808",
+            "810",
+            "812",
+            "813",
+            "814",
+            "815",
+            "816",
+            "817",
+            "818",
+            "828",
+            "830",
+            "831",
+            "832",
+            "843",
+            "845",
+            "847",
+            "848",
+            "850",
+            "854",
+            "856",
+            "857",
+            "858",
+            "859",
+            "860",
+            "862",
+            "863",
+            "864",
+            "865",
+            "870",
+            "872",
+            "878",
+            "901",
+            "903",
+            "904",
+            "906",
+            "907",
+            "908",
+            "909",
+            "910",
+            "912",
+            "913",
+            "914",
+            "915",
+            "916",
+            "917",
+            "918",
+            "919",
+            "920",
+            "925",
+            "928",
+            "929",
+            "930",
+            "931",
+            "934",
+            "936",
+            "937",
+            "938",
+            "940",
+            "941",
+            "947",
+            "949",
+            "951",
+            "952",
+            "954",
+            "956",
+            "959",
+            "970",
+            "971",
+            "972",
+            "973",
+            "975",
+            "978",
+            "979",
+            "980",
+            "984",
+            "985",
+            "989"
+        ]
+    },
+    "capital": [
+        "Washington, D.C."
+    ],
+    "altSpellings": [
+        "US",
+        "USA",
+        "United States of America"
+    ],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": {
+        "eng": "English"
+    },
+    "translations": {
+        "ara": {
+            "official": "الولايات المتحدة الامريكية",
+            "common": "الولايات المتحدة"
+        },
+        "bre": {
+            "official": "Stadoù-Unanet Amerika",
+            "common": "Stadoù-Unanet"
+        },
+        "ces": {
+            "official": "Spojené státy americké",
+            "common": "Spojené státy"
+        },
+        "cym": {
+            "official": "United States of America",
+            "common": "United States"
+        },
+        "deu": {
+            "official": "Vereinigte Staaten von Amerika",
+            "common": "Vereinigte Staaten"
+        },
+        "est": {
+            "official": "Ameerika Ühendriigid",
+            "common": "Ameerika Ühendriigid"
+        },
+        "fin": {
+            "official": "Amerikan yhdysvallat",
+            "common": "Yhdysvallat"
+        },
+        "fra": {
+            "official": "Les états-unis d'Amérique",
+            "common": "États-Unis"
+        },
+        "hrv": {
+            "official": "Sjedinjene Države Amerike",
+            "common": "Sjedinjene Američke Države"
+        },
+        "hun": {
+            "official": "Amerikai Egyesült Államok",
+            "common": "Amerikai Egyesült Államok"
+        },
+        "ita": {
+            "official": "Stati Uniti d'America",
+            "common": "Stati Uniti d'America"
+        },
+        "jpn": {
+            "official": "アメリカ合衆国",
+            "common": "アメリカ合衆国"
+        },
+        "kor": {
+            "official": "아메리카 합중국",
+            "common": "미국"
+        },
+        "nld": {
+            "official": "Verenigde Staten van Amerika",
+            "common": "Verenigde Staten"
+        },
+        "per": {
+            "official": "ایالات متحده آمریکا",
+            "common": "ایالات متحده آمریکا"
+        },
+        "pol": {
+            "official": "Stany Zjednoczone Ameryki",
+            "common": "Stany Zjednoczone"
+        },
+        "por": {
+            "official": "Estados Unidos da América",
+            "common": "Estados Unidos"
+        },
+        "rus": {
+            "official": "Соединенные Штаты Америки",
+            "common": "Соединённые Штаты Америки"
+        },
+        "slk": {
+            "official": "Spojené štáty Americké",
+            "common": "Spojené štáty americké"
+        },
+        "spa": {
+            "official": "Estados Unidos de América",
+            "common": "Estados Unidos"
+        },
+        "srp": {
+            "official": "Сједињене Америчке Државе",
+            "common": "Сједињене Америчке Државе"
+        },
+        "swe": {
+            "official": "Amerikas förenta stater",
+            "common": "USA"
+        },
+        "tur": {
+            "official": "Amerika Birleşik Devletleri",
+            "common": "Amerika Birleşik Devletleri"
+        },
+        "urd": {
+            "official": "ریاستہائے متحدہ امریکا",
+            "common": "ریاستہائے متحدہ"
+        },
+        "zho": {
+            "official": "美利坚合众国",
+            "common": "美国"
+        }
+    },
+    "latlng": [
+        38.0,
+        -97.0
+    ],
+    "landlocked": false,
+    "borders": [
+        "CAN",
+        "MEX"
+    ],
+    "area": 9372610.0,
+    "demonyms": {
+        "eng": {
+            "f": "American",
+            "m": "American"
+        },
+        "fra": {
+            "f": "Américaine",
+            "m": "Américain"
+        }
+    },
+    "flag": "🇺🇸",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/e8M246zY4BSjkjAv6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/148838#map=2/20.6/-85.8"
+    },
+    "population": 329484123,
+    "gini": {
+        "2018": 41.4
+    },
+    "fifa": "USA",
+    "car": {
+        "signs": [
+            "USA"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-12:00",
+        "UTC-11:00",
+        "UTC-10:00",
+        "UTC-09:00",
+        "UTC-08:00",
+        "UTC-07:00",
+        "UTC-06:00",
+        "UTC-05:00",
+        "UTC-04:00",
+        "UTC+10:00",
+        "UTC+12:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/us.png",
+        "svg": "https://flagcdn.com/us.svg",
+        "alt": "The flag of the United States of America is composed of thirteen equal horizontal bands of red alternating with white. A blue rectangle, bearing fifty small five-pointed white stars arranged in nine rows where rows of six stars alternate with rows of five stars, is superimposed in the canton."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/us.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/us.svg"
+    },
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+        "latlng": [
+            38.89,
+            -77.05
+        ]
+    },
+    "postalCode": {
+        "format": "#####-####",
+        "regex": "^\\d{5}(-\\d{4})?$"
+    }
+  },
+  {
+    "name": {
+        "common": "Belize",
+        "official": "Belize",
+        "nativeName": {
+            "bjz": {
+                "official": "Belize",
+                "common": "Belize"
+            },
+            "eng": {
+                "official": "Belize",
+                "common": "Belize"
+            },
+            "spa": {
+                "official": "Belice",
+                "common": "Belice"
+            }
+        }
+    },
+    "tld": [
+        ".bz"
+    ],
+    "cca2": "BZ",
+    "ccn3": "084",
+    "cca3": "BLZ",
+    "cioc": "BIZ",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+        "BZD": {
+            "name": "Belize dollar",
+            "symbol": "$"
+        }
+    },
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "01"
+        ]
+    },
+    "capital": [
+        "Belmopan"
+    ],
+    "altSpellings": [
+        "BZ"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": {
+        "bjz": "Belizean Creole",
+        "eng": "English",
+        "spa": "Spanish"
+    },
+    "translations": {
+        "ara": {
+            "official": "بليز",
+            "common": "بليز"
+        },
+        "bre": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "ces": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "cym": {
+            "official": "Belîs",
+            "common": "Belîs"
+        },
+        "deu": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "est": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "fin": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "fra": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "hrv": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "hun": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "ita": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "jpn": {
+            "official": "ベリーズ",
+            "common": "ベリーズ"
+        },
+        "kor": {
+            "official": "벨리즈",
+            "common": "벨리즈"
+        },
+        "nld": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "per": {
+            "official": "بلیز",
+            "common": "بلیز"
+        },
+        "pol": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "por": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "rus": {
+            "official": "Белиз",
+            "common": "Белиз"
+        },
+        "slk": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "spa": {
+            "official": "Belice",
+            "common": "Belice"
+        },
+        "srp": {
+            "official": "Белизе",
+            "common": "Белизе"
+        },
+        "swe": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "tur": {
+            "official": "Belize",
+            "common": "Belize"
+        },
+        "urd": {
+            "official": "بیلیز",
+            "common": "بیلیز"
+        },
+        "zho": {
+            "official": "伯利兹",
+            "common": "伯利兹"
+        }
+    },
+    "latlng": [
+        17.25,
+        -88.75
+    ],
+    "landlocked": false,
+    "borders": [
+        "GTM",
+        "MEX"
+    ],
+    "area": 22966.0,
+    "demonyms": {
+        "eng": {
+            "f": "Belizean",
+            "m": "Belizean"
+        },
+        "fra": {
+            "f": "Bélizienne",
+            "m": "Bélizien"
+        }
+    },
+    "flag": "🇧🇿",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/jdCccpdLodm1uTmo9",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/287827"
+    },
+    "population": 397621,
+    "gini": {
+        "1999": 53.3
+    },
+    "fifa": "BLZ",
+    "car": {
+        "signs": [
+            "BH"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-06:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/bz.png",
+        "svg": "https://flagcdn.com/bz.svg",
+        "alt": "The flag of Belize has a royal blue field with a thin red horizontal band at the top and bottom of the field and the national coat of arms in the center."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/bz.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/bz.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            17.25,
+            -88.77
+        ]
+    }
+  },
+  {
+    "name": {
+        "common": "Guatemala",
+        "official": "Republic of Guatemala",
+        "nativeName": {
+            "spa": {
+                "official": "República de Guatemala",
+                "common": "Guatemala"
+            }
+        }
+    },
+    "tld": [
+        ".gt"
+    ],
+    "cca2": "GT",
+    "ccn3": "320",
+    "cca3": "GTM",
+    "cioc": "GUA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+        "GTQ": {
+            "name": "Guatemalan quetzal",
+            "symbol": "Q"
+        }
+    },
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "02"
+        ]
+    },
+    "capital": [
+        "Guatemala City"
+    ],
+    "altSpellings": [
+        "GT"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": {
+        "spa": "Spanish"
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية غواتيمالا",
+            "common": "غواتيمالا"
+        },
+        "bre": {
+            "official": "Republik Guatemala",
+            "common": "Guatemala"
+        },
+        "ces": {
+            "official": "Republika Guatemala",
+            "common": "Guatemala"
+        },
+        "cym": {
+            "official": "Republic of Guatemala",
+            "common": "Guatemala"
+        },
+        "deu": {
+            "official": "Republik Guatemala",
+            "common": "Guatemala"
+        },
+        "est": {
+            "official": "Guatemala Vabariik",
+            "common": "Guatemala"
+        },
+        "fin": {
+            "official": "Guatemalan tasavalta",
+            "common": "Guatemala"
+        },
+        "fra": {
+            "official": "République du Guatemala",
+            "common": "Guatemala"
+        },
+        "hrv": {
+            "official": "Republika Gvatemala",
+            "common": "Gvatemala"
+        },
+        "hun": {
+            "official": "Guatemalai Köztársaság",
+            "common": "Guatemala"
+        },
+        "ita": {
+            "official": "Repubblica del Guatemala",
+            "common": "Guatemala"
+        },
+        "jpn": {
+            "official": "グアテマラ共和国",
+            "common": "グアテマラ"
+        },
+        "kor": {
+            "official": "과테말라 공화국",
+            "common": "과테말라"
+        },
+        "nld": {
+            "official": "Republiek Guatemala",
+            "common": "Guatemala"
+        },
+        "per": {
+            "official": "جمهوری گواتِمالا",
+            "common": "گواتِمالا"
+        },
+        "pol": {
+            "official": "Republika Gwatemali",
+            "common": "Gwatemala"
+        },
+        "por": {
+            "official": "República da Guatemala",
+            "common": "Guatemala"
+        },
+        "rus": {
+            "official": "Республика Гватемала",
+            "common": "Гватемала"
+        },
+        "slk": {
+            "official": "Guatemalská republika",
+            "common": "Guatemala"
+        },
+        "spa": {
+            "official": "República de Guatemala",
+            "common": "Guatemala"
+        },
+        "srp": {
+            "official": "Република Гватемала",
+            "common": "Гватемала"
+        },
+        "swe": {
+            "official": "Republiken Guatemala",
+            "common": "Guatemala"
+        },
+        "tur": {
+            "official": "Guatemala Cumhuriyeti",
+            "common": "Guatemala"
+        },
+        "urd": {
+            "official": "جمہوریہ گواتیمالا",
+            "common": "گواتیمالا"
+        },
+        "zho": {
+            "official": "危地马拉共和国",
+            "common": "危地马拉"
+        }
+    },
+    "latlng": [
+        15.5,
+        -90.25
+    ],
+    "landlocked": false,
+    "borders": [
+        "BLZ",
+        "SLV",
+        "HND",
+        "MEX"
+    ],
+    "area": 108889.0,
+    "demonyms": {
+        "eng": {
+            "f": "Guatemalan",
+            "m": "Guatemalan"
+        },
+        "fra": {
+            "f": "Guatémaltèque",
+            "m": "Guatémaltèque"
+        }
+    },
+    "flag": "🇬🇹",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/JoRAbem4Hxb9FYbVA",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/1521463"
+    },
+    "population": 16858333,
+    "gini": {
+        "2014": 48.3
+    },
+    "fifa": "GUA",
+    "car": {
+        "signs": [
+            "GCA"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-06:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/gt.png",
+        "svg": "https://flagcdn.com/gt.svg",
+        "alt": "The flag of Guatemala is composed of three equal vertical bands of light blue, white and light blue, with the national coat of arms centered in the white band."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/gt.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/gt.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            14.62,
+            -90.52
+        ]
+    },
+    "postalCode": {
+        "format": "#####",
+        "regex": "^(\\d{5})$"
+    }
+  },
+  {
+    "name": {
+        "common": "El Salvador",
+        "official": "Republic of El Salvador",
+        "nativeName": {
+            "spa": {
+                "official": "República de El Salvador",
+                "common": "El Salvador"
+            }
+        }
+    },
+    "tld": [
+        ".sv"
+    ],
+    "cca2": "SV",
+    "ccn3": "222",
+    "cca3": "SLV",
+    "cioc": "ESA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+        "USD": {
+            "name": "United States dollar",
+            "symbol": "$"
+        }
+    },
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "03"
+        ]
+    },
+    "capital": [
+        "San Salvador"
+    ],
+    "altSpellings": [
+        "SV",
+        "Republic of El Salvador",
+        "República de El Salvador"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": {
+        "spa": "Spanish"
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية السلفادور",
+            "common": "السلفادور"
+        },
+        "bre": {
+            "official": "Republik El Salvador",
+            "common": "El Salvador"
+        },
+        "ces": {
+            "official": "Salvadorská republika",
+            "common": "Salvador"
+        },
+        "cym": {
+            "official": "Gweriniaeth El Salfador",
+            "common": "El Salfador"
+        },
+        "deu": {
+            "official": "Republik El Salvador",
+            "common": "El Salvador"
+        },
+        "est": {
+            "official": "El Salvadori Vabariik",
+            "common": "El Salvador"
+        },
+        "fin": {
+            "official": "El Salvadorin tasavalta",
+            "common": "El Salvador"
+        },
+        "fra": {
+            "official": "République du Salvador",
+            "common": "Salvador"
+        },
+        "hrv": {
+            "official": "Republika El Salvador",
+            "common": "Salvador"
+        },
+        "hun": {
+            "official": "Salvadori Köztársaság",
+            "common": "Salvador"
+        },
+        "ita": {
+            "official": "Repubblica di El Salvador",
+            "common": "El Salvador"
+        },
+        "jpn": {
+            "official": "エルサルバドル共和国",
+            "common": "エルサルバドル"
+        },
+        "kor": {
+            "official": "엘살바도르 공화국",
+            "common": "엘살바도르"
+        },
+        "nld": {
+            "official": "Republiek El Salvador",
+            "common": "El Salvador"
+        },
+        "per": {
+            "official": "جمهوری السالوادور",
+            "common": "السالوادور"
+        },
+        "pol": {
+            "official": "Republika Salwadoru",
+            "common": "Salwador"
+        },
+        "por": {
+            "official": "República de El Salvador",
+            "common": "El Salvador"
+        },
+        "rus": {
+            "official": "Республика Эль-Сальвадор",
+            "common": "Сальвадор"
+        },
+        "slk": {
+            "official": "Salvádorská republika",
+            "common": "Salvádor"
+        },
+        "spa": {
+            "official": "República de El Salvador",
+            "common": "El Salvador"
+        },
+        "srp": {
+            "official": "Република Ел Салвадор",
+            "common": "Салвадор"
+        },
+        "swe": {
+            "official": "Republiken El Salvador",
+            "common": "El Salvador"
+        },
+        "tur": {
+            "official": "El Salvador Cumhuriyeti",
+            "common": "El Salvador"
+        },
+        "urd": {
+            "official": "جمہوریہ ایل سیلواڈور",
+            "common": "ایل سیلواڈور"
+        },
+        "zho": {
+            "official": "萨尔瓦多共和国",
+            "common": "萨尔瓦多"
+        }
+    },
+    "latlng": [
+        13.83333333,
+        -88.91666666
+    ],
+    "landlocked": false,
+    "borders": [
+        "GTM",
+        "HND"
+    ],
+    "area": 21041.0,
+    "demonyms": {
+        "eng": {
+            "f": "Salvadoran",
+            "m": "Salvadoran"
+        },
+        "fra": {
+            "f": "Salvadorienne",
+            "m": "Salvadorien"
+        }
+    },
+    "flag": "🇸🇻",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/cZnCEi5sEMQtKKcB7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/1520612"
+    },
+    "population": 6486201,
+    "gini": {
+        "2019": 38.8
+    },
+    "fifa": "SLV",
+    "car": {
+        "signs": [
+            "ES"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-06:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/sv.png",
+        "svg": "https://flagcdn.com/sv.svg",
+        "alt": "The flag of El Salvador is composed of three equal horizontal bands of cobalt blue, white and cobalt blue, with the national coat of arms centered in the white band."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/sv.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/sv.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            13.7,
+            -89.2
+        ]
+    },
+    "postalCode": {
+        "format": "CP ####",
+        "regex": "^(?:CP)*(\\d{4})$"
+    }
+  },
+  {
+    "name": {
+        "common": "Honduras",
+        "official": "Republic of Honduras",
+        "nativeName": {
+            "spa": {
+                "official": "República de Honduras",
+                "common": "Honduras"
+            }
+        }
+    },
+    "tld": [
+        ".hn"
+    ],
+    "cca2": "HN",
+    "ccn3": "340",
+    "cca3": "HND",
+    "cioc": "HON",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+        "HNL": {
+            "name": "Honduran lempira",
+            "symbol": "L"
+        }
+    },
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "04"
+        ]
+    },
+    "capital": [
+        "Tegucigalpa"
+    ],
+    "altSpellings": [
+        "HN",
+        "Republic of Honduras",
+        "República de Honduras"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "languages": {
+        "spa": "Spanish"
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية هندوراس",
+            "common": "هندوراس"
+        },
+        "bre": {
+            "official": "Republik Honduras",
+            "common": "Honduras"
+        },
+        "ces": {
+            "official": "Honduraská republika",
+            "common": "Honduras"
+        },
+        "cym": {
+            "official": "Republic of Honduras",
+            "common": "Honduras"
+        },
+        "deu": {
+            "official": "Republik Honduras",
+            "common": "Honduras"
+        },
+        "est": {
+            "official": "Hondurase Vabariik",
+            "common": "Honduras"
+        },
+        "fin": {
+            "official": "Hondurasin tasavalta",
+            "common": "Honduras"
+        },
+        "fra": {
+            "official": "République du Honduras",
+            "common": "Honduras"
+        },
+        "hrv": {
+            "official": "Republika Honduras",
+            "common": "Honduras"
+        },
+        "hun": {
+            "official": "Hondurasi Köztársaság",
+            "common": "Honduras"
+        },
+        "ita": {
+            "official": "Repubblica di Honduras",
+            "common": "Honduras"
+        },
+        "jpn": {
+            "official": "ホンジュラス共和国",
+            "common": "ホンジュラス"
+        },
+        "kor": {
+            "official": "온두라스 공화국",
+            "common": "온두라스"
+        },
+        "nld": {
+            "official": "Republiek Honduras",
+            "common": "Honduras"
+        },
+        "per": {
+            "official": "جمهوری هندوراس",
+            "common": "هُندوراس"
+        },
+        "pol": {
+            "official": "Republika Hondurasu",
+            "common": "Honduras"
+        },
+        "por": {
+            "official": "República de Honduras",
+            "common": "Honduras"
+        },
+        "rus": {
+            "official": "Республика Гондурас",
+            "common": "Гондурас"
+        },
+        "slk": {
+            "official": "Honduraská republika",
+            "common": "Honduras"
+        },
+        "spa": {
+            "official": "República de Honduras",
+            "common": "Honduras"
+        },
+        "srp": {
+            "official": "Република Хондурас",
+            "common": "Хондурас"
+        },
+        "swe": {
+            "official": "Republiken Honduras",
+            "common": "Honduras"
+        },
+        "tur": {
+            "official": "Honduras Cumhuriyeti",
+            "common": "Honduras"
+        },
+        "urd": {
+            "official": "جمہوریہ ہونڈوراس",
+            "common": "ہونڈوراس"
+        },
+        "zho": {
+            "official": "洪都拉斯共和国",
+            "common": "洪都拉斯"
+        }
+    },
+    "latlng": [
+        15.0,
+        -86.5
+    ],
+    "landlocked": false,
+    "borders": [
+        "GTM",
+        "SLV",
+        "NIC"
+    ],
+    "area": 112492.0,
+    "demonyms": {
+        "eng": {
+            "f": "Honduran",
+            "m": "Honduran"
+        },
+        "fra": {
+            "f": "Hondurienne",
+            "m": "Hondurien"
+        }
+    },
+    "flag": "🇭🇳",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/BbeJK8Sk2VkMHbdF8",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/287670"
+    },
+    "population": 9904608,
+    "gini": {
+        "2019": 48.2
+    },
+    "fifa": "HON",
+    "car": {
+        "signs": [
+            "HN"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-06:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/hn.png",
+        "svg": "https://flagcdn.com/hn.svg",
+        "alt": "The flag of Honduras is composed of three equal horizontal bands of turquoise, white and turquoise, with five small five-pointed turquoise stars arranged in a quincuncial pattern at the center of the white band."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/hn.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/hn.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            14.1,
+            -87.22
+        ]
+    },
+    "postalCode": {
+        "format": "@@####",
+        "regex": "^([A-Z]{2}\\d{4})$"
+    }
+  },
+  {
+    "name": {
+        "common": "Canada",
+        "official": "Canada",
+        "nativeName": {
+            "eng": {
+                "official": "Canada",
+                "common": "Canada"
+            },
+            "fra": {
+                "official": "Canada",
+                "common": "Canada"
+            }
+        }
+    },
+    "tld": [
+        ".ca"
+    ],
+    "cca2": "CA",
+    "ccn3": "124",
+    "cca3": "CAN",
+    "cioc": "CAN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+        "CAD": {
+            "name": "Canadian dollar",
+            "symbol": "$"
+        }
+    },
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            ""
+        ]
+    },
+    "capital": [
+        "Ottawa"
+    ],
+    "altSpellings": [
+        "CA"
+    ],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": {
+        "eng": "English",
+        "fra": "French"
+    },
+    "translations": {
+        "ara": {
+            "official": "كندا",
+            "common": "كندا"
+        },
+        "bre": {
+            "official": "Kanada",
+            "common": "Kanada"
+        },
+        "ces": {
+            "official": "Kanada",
+            "common": "Kanada"
+        },
+        "cym": {
+            "official": "Canada",
+            "common": "Canada"
+        },
+        "deu": {
+            "official": "Kanada",
+            "common": "Kanada"
+        },
+        "est": {
+            "official": "Kanada",
+            "common": "Kanada"
+        },
+        "fin": {
+            "official": "Kanada",
+            "common": "Kanada"
+        },
+        "fra": {
+            "official": "Canada",
+            "common": "Canada"
+        },
+        "hrv": {
+            "official": "Kanada",
+            "common": "Kanada"
+        },
+        "hun": {
+            "official": "Kanada",
+            "common": "Kanada"
+        },
+        "ita": {
+            "official": "Canada",
+            "common": "Canada"
+        },
+        "jpn": {
+            "official": "カナダ",
+            "common": "カナダ"
+        },
+        "kor": {
+            "official": "캐나다",
+            "common": "캐나다"
+        },
+        "nld": {
+            "official": "Canada",
+            "common": "Canada"
+        },
+        "per": {
+            "official": "کانادا",
+            "common": "کانادا"
+        },
+        "pol": {
+            "official": "Kanada",
+            "common": "Kanada"
+        },
+        "por": {
+            "official": "Canadá",
+            "common": "Canadá"
+        },
+        "rus": {
+            "official": "Канада",
+            "common": "Канада"
+        },
+        "slk": {
+            "official": "Kanada",
+            "common": "Kanada"
+        },
+        "spa": {
+            "official": "Canadá",
+            "common": "Canadá"
+        },
+        "srp": {
+            "official": "Канада",
+            "common": "Канада"
+        },
+        "swe": {
+            "official": "Kanada",
+            "common": "Kanada"
+        },
+        "tur": {
+            "official": "Kanada",
+            "common": "Kanada"
+        },
+        "urd": {
+            "official": "کینیڈا",
+            "common": "کینیڈا"
+        },
+        "zho": {
+            "official": "加拿大",
+            "common": "加拿大"
+        }
+    },
+    "latlng": [
+        60.0,
+        -95.0
+    ],
+    "landlocked": false,
+    "borders": [
+        "USA"
+    ],
+    "area": 9984670.0,
+    "demonyms": {
+        "eng": {
+            "f": "Canadian",
+            "m": "Canadian"
+        },
+        "fra": {
+            "f": "Canadienne",
+            "m": "Canadien"
+        }
+    },
+    "flag": "🇨🇦",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/jmEVLugreeqiZXxbA",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/1428125"
+    },
+    "population": 38005238,
+    "gini": {
+        "2017": 33.3
+    },
+    "fifa": "CAN",
+    "car": {
+        "signs": [
+            "CDN"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-08:00",
+        "UTC-07:00",
+        "UTC-06:00",
+        "UTC-05:00",
+        "UTC-04:00",
+        "UTC-03:30"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/ca.png",
+        "svg": "https://flagcdn.com/ca.svg",
+        "alt": "The flag of Canada is composed of a red vertical band on the hoist and fly sides and a central white square that is twice the width of the vertical bands. A large eleven-pointed red maple leaf is centered in the white square."
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/ca.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/ca.svg"
+    },
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+        "latlng": [
+            45.42,
+            -75.7
+        ]
+    },
+    "postalCode": {
+        "format": "@#@ #@#",
+        "regex": "^([ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJKLMNPRSTVWXYZ]) ?(\\d[ABCEGHJKLMNPRSTVWXYZ]\\d)$"
+    }
   }
-]
+] 
