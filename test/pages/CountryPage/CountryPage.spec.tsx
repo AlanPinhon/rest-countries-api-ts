@@ -8,14 +8,8 @@ import { HomePage } from '../../../src/pages/HomePage/HomePage';
 
 describe('Tests in <CountryPage/>', () => {
 
-  const removeDOMElement = () => {
-    return waitForElementToBeRemoved(() => screen.queryByText('Loading Countries...'))
-  }
-
-  test('should show the detailed country info', async () => {
-    const user = userEvent.setup();
-
-    render(
+  const TestComponent = () => {
+    return (
       <CountriesProvider>
         <MemoryRouter initialEntries={["/home"]}>
           <Routes>
@@ -25,6 +19,16 @@ describe('Tests in <CountryPage/>', () => {
         </MemoryRouter>
       </CountriesProvider>
     )
+  }
+
+  const removeDOMElement = () => {
+    return waitForElementToBeRemoved(() => screen.queryByText('Loading Countries...'))
+  }
+
+  test('should show the detailed country info', async () => {
+    const user = userEvent.setup();
+
+    render(<TestComponent/>);
 
     await removeDOMElement();
 
@@ -46,16 +50,7 @@ describe('Tests in <CountryPage/>', () => {
   test('should show detailed information of the selected border country', async () => {
     const user = userEvent.setup();
 
-    render(
-      <CountriesProvider>
-        <MemoryRouter initialEntries={["/home"]}>
-          <Routes>
-            <Route path="/home" element={<HomePage />} />
-            <Route path="/country/:countryName" element={<CountryPage />} />
-          </Routes>
-        </MemoryRouter>
-      </CountriesProvider>
-    )
+    render(<TestComponent/>);
 
     await removeDOMElement();
 
@@ -80,16 +75,7 @@ describe('Tests in <CountryPage/>', () => {
   test('should return to Home Page when click the back button', async () => {
     const user = userEvent.setup();
 
-    render(
-      <CountriesProvider>
-        <MemoryRouter initialEntries={["/home"]}>
-          <Routes>
-            <Route path="/home" element={<HomePage />} />
-            <Route path="/country/:countryName" element={<CountryPage />} />
-          </Routes>
-        </MemoryRouter>
-      </CountriesProvider>
-    )
+    render(<TestComponent/>);
 
     await removeDOMElement();
 
