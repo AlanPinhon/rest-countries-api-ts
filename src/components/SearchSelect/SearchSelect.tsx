@@ -1,4 +1,5 @@
 import { ChangeEvent } from 'react';
+import './SearchSelectStyles.css';
 
 type RegionProps = {
   setCountryRegion: (region:string) => void;

@@ -23,17 +23,17 @@ export const CountryCard = ({country}:CountryProps) => {
 
         <Link to={`/country/${paramName}`} className="country-name">{common}</Link>
 
-        <div className="population-info">
+        <div className="container-info">
           <p className="bold-prop-text">Population:</p>
-          <p className="prop-value">{population}</p>
+          <p className="prop-value">{population.toLocaleString().replace(/\./g, ',')}</p>
         </div>
 
-        <div className="region-info">
+        <div className="container-info">
           <p className="bold-prop-text">Region:</p>
           <p className="prop-value">{region}</p>
         </div>
 
-        <div className="capital-info">
+        <div className="container-info">
           <p className="bold-prop-text">Capital:</p>
           <p className="prop-value">{capital || "N/A"}</p>
         </div>

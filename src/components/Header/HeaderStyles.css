@@ -1,5 +1,5 @@
 header{
-  padding: 1.5rem 3.75rem;
+  padding: 1.5rem 5rem;
   background: var(--dark-mode-elements);
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.10);
   display: flex;
@@ -31,9 +31,10 @@ header{
   font-weight: 300;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
+
   header{
-    padding: 2.5rem 1.5rem;
+    padding: 2.5rem 2.5rem;
   }
 
   .header-title{
@@ -49,4 +50,13 @@ header{
     font-size: var(--homepage-font-size);
     font-weight: 300;
   }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  header{
+    padding: 2.5rem 1.5rem;
+  }
+
 }
