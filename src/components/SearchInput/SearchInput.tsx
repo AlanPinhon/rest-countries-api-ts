@@ -15,11 +15,11 @@ export const SearchInput = ({setCountryName}:SearchProps) => {
 
 
   return (
-    <form className="search-input">
-      <button className="search-btn">
+    <form className="search-form">
+      <button disabled className="search-btn">
         <img src={Search} className="search-icon"/>
       </button>
-      <input onChange={handleNameValue} type="text" placeholder="Search for a country..."/>
+      <input className="search-input" onChange={handleNameValue} type="text" placeholder="Search for a country..."/>
     </form>
   )
 }

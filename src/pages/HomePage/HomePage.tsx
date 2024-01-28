@@ -28,16 +28,17 @@ export const HomePage = () => {
       </section>
 
       <section className="country-cards-container">
+      
+        {(filteredCountries && filteredCountries.length > 0)
+          ? filteredCountries.map( country => (
+            <CountryCard
+              key={country.name.common}
+              country={country}
+            />
+          ))
+          : <h1>The country entered doesn't exist</h1>
+        }
 
-        {(filteredCountries.length < 0) && <h1>The country entered doesn't exist</h1>}
-        
-        { filteredCountries.map( country => (
-          <CountryCard
-            key={country.name.common}
-            country={country}
-          />
-        ))}
-        
       </section>
     </>
   )
