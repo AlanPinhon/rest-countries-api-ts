@@ -1,13 +1,10 @@
 :root{
-  /* Colors */
+  /* Light Mode  */
+  --body-background: rgb(250, 250, 250);
+  --background-elements: #fff;
+  --font-color: rgb(17, 21, 23);
+  --icon-color: invert(0);
   --shadow: 3px 3px 15px rgba(0, 0, 0, 0.25);
-  --dark-mode-elements: rgb(43, 57, 69);
-  --dark-mode-background: rgb(32, 44, 55);
-  /* Light Mode */
-  --light-mode-text: rgb(17, 21, 23);
-  --light-mode-input:  rgb(133, 133, 133);
-  --light-mode-background: rgb(250, 250, 250);
-  --white: rgb(255, 255, 255) ;
   /* Font */
   --nunito-light: 300;
   --nunito-semibold: 600;
@@ -15,6 +12,13 @@
   --homepage-font-size: .875rem;
   --country-info-font-size: 1rem;
   --country-link-font-size: 1.1rem;
+}
+
+[data-theme="dark"] {
+  --body-background: rgb(32, 44, 55);
+  --background-elements: rgb(43, 57, 69);
+  --font-color: rgb(255, 255, 255);
+  --icon-color: invert(1);
 }
 
 *,
@@ -27,6 +31,7 @@
 }
 
 body{
-  background-color: var(--dark-mode-background);
-  color: var(--white);
+  background-color: var(--body-background);
+  color: var(--font-color);
+  transition: .05s ease-in-out;
 }
