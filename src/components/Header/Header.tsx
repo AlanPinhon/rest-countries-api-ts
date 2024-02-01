@@ -19,7 +19,9 @@ export const Header = () => {
       <h1 className="header-title">Where in the world?</h1>
       <button onClick={toggleTheme} id='dark-mode-toggle' className="theme-mode-btn">
         <img src={Moon} className="icon"/>
-        <p className="theme-mode-text">Dark Mode</p>
+        <p className="theme-mode-text">
+          {(theme === 'light') ? 'Dark' : 'Light'} Mode
+        </p>
       </button>
     </header>
   )
