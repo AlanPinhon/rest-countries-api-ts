@@ -1,12 +1,29 @@
+import { useState } from 'react';
 import Moon from '../../assets/images/moon.svg';
+import Sun from '../../assets/images/sun.svg';
 import './HeaderStyles.css';
 
-export const Header = () => (
-  <header>
-    <h1 className="header-title">Where in the world?</h1>
-      <div className="icon-mode">
-        <img src={Moon} className="icon"/>
-        <p className="theme-mode-text">Light Mode</p>
-      </div>
-  </header>
-)
+export const Header = () => {
+
+  const [theme, setTheme] = useState<string>(localStorage.getItem('theme') || 'light');
+  document.querySelector('body')?.setAttribute('data-theme', theme);
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+    document.querySelector('body')?.toggleAttribute('data-theme');
+    localStorage.setItem('theme', newTheme);
+  };
+  
+  return (
+    <header>
+      <h1 className="header-title">Where in the world?</h1>
+      <button onClick={toggleTheme} id='dark-mode-toggle' className="theme-mode-btn">
+        <img src={(theme === 'light') ? Moon : Sun} className="icon"/>
+        <p className="theme-mode-text">
+          {(theme === 'light') ? 'Dark' : 'Light'} Mode
+        </p>
+      </button>
+    </header>
+  )
+}

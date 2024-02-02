@@ -1,0 +1,26 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0;
+
+  & .warn-icon {
+    width: 10rem;
+    margin-bottom: 2rem;
+  }
+
+  & .error-msg {
+    margin-bottom: 2rem;
+  }
+
+  & .retry-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2.5rem;
+    box-shadow: var(--shadow);
+    font-size: var(--country-info-font-size);
+    font-weight: var(--nunito-semibold);
+    background-color: var(--background-elements);
+    color: var(--font-color);
+  }
+}
