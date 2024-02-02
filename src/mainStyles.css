@@ -33,5 +33,4 @@
 body{
   background-color: var(--body-background);
   color: var(--font-color);
-  transition: .05s ease-in-out;
 }

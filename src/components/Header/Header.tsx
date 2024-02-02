@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Moon from '../../assets/images/moon.svg';
+import Sun from '../../assets/images/sun.svg';
 import './HeaderStyles.css';
 
 export const Header = () => {
@@ -18,7 +19,7 @@ export const Header = () => {
     <header>
       <h1 className="header-title">Where in the world?</h1>
       <button onClick={toggleTheme} id='dark-mode-toggle' className="theme-mode-btn">
-        <img src={Moon} className="icon"/>
+        <img src={(theme === 'light') ? Moon : Sun} className="icon"/>
         <p className="theme-mode-text">
           {(theme === 'light') ? 'Dark' : 'Light'} Mode
         </p>

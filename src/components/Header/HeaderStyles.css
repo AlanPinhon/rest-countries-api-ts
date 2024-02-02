@@ -20,6 +20,7 @@ header{
   padding: .25rem .5rem;
   border: none;
   background: var(--background-elements);
+  cursor: pointer;
 }
 
 .icon{
