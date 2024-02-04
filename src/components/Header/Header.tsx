@@ -4,9 +4,9 @@ import Sun from '../../assets/images/sun.svg';
 import './HeaderStyles.css';
 
 export const Header = () => {
-  //Get system color preference
+
   const prefersDarkThemeMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  //Set initial theme based on system preference or local storage
+
   const [theme, setTheme] = useState<string>(localStorage.getItem('theme') || (prefersDarkThemeMode ? 'dark' : 'light'));
   document.querySelector('body')?.setAttribute('data-theme', theme);
 
@@ -17,7 +17,7 @@ export const Header = () => {
     localStorage.setItem('theme', newTheme);
   };
   
-  //Listen for changes to the system color preference
+
   useEffect(() => {
     const query = window.matchMedia('(prefers-color-scheme: dark)');
 
