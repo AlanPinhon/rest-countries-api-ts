@@ -22,8 +22,10 @@ export const Header = () => {
     const query = window.matchMedia('(prefers-color-scheme: dark)');
 
     const handleChange = () => {
-      setTheme(query.matches ? 'dark' : 'light');
+      const newTheme = query.matches ? 'dark' : 'light';
+      setTheme(newTheme);
       document.querySelector('body')?.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', newTheme);
     };
 
     query.addEventListener('change', handleChange);
