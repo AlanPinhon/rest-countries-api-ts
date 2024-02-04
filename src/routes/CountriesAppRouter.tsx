@@ -12,7 +12,7 @@ export const CountriesAppRouter = () => {
         <Route path="/home" element={<HomePage />} />
         <Route path="/country/:countryName" element={<CountryPage />} />
 
-        <Route path="/" element={<Navigate to="/home" />} />
+        <Route path="/*" element={<Navigate to="/home" />} />
       </Routes>
     </CountriesProvider>
   )
